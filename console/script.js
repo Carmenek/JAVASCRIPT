@@ -65,23 +65,23 @@
 // Infinite loops
 
 // do while
-var aaa;
-let decision=false;
+// var aaa;
+// let decision=false;
  
-let counter=0;
-aaa=prompt("enter a number");
-do{
-    let code=prompt("enter your code");
-    if(code==aaa){
-        decision=true;
-        console.log("you are in");
-    }
-    counter++;
-    if(counter==3){
-        console.log("you are blocked");
-        break;
-    }
-}while(decision==false);
+// let counter=0;
+// aaa=prompt("enter a number");
+// do{
+//     let code=prompt("enter your code");
+//     if(code==aaa){
+//         decision=true;
+//         console.log("you are in");
+//     }
+//     counter++;
+//     if(counter==3){
+//         console.log("you are blocked");
+//         break;
+//     }
+// }while(decision==false);
 
 // // for
 
@@ -103,4 +103,15 @@ do{
 // for (let j = 13; j <= 12 ; j++) {
 //     console.log(`${i} * ${j} = ${i * j}`);
 // }
+let p=9
+switch(p){
+    case 9:console.log("nine");
+        break;
+    case 2:console.log("two");
+        break;
+    case 3:console.log("three");
+        break;
 
+        default:console.log("default");
+        break;
+}
