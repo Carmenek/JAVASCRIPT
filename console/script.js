@@ -65,12 +65,23 @@
 // Infinite loops
 
 // do while
-// do{
-//     var aaa=1;
-
-//     console.log(aaa);
-//     aaa++;
-// }while(aaa < 1)
+var aaa;
+let decision=false;
+ 
+let counter=0;
+aaa=prompt("enter a number");
+do{
+    let code=prompt("enter your code");
+    if(code==aaa){
+        decision=true;
+        console.log("you are in");
+    }
+    counter++;
+    if(counter==3){
+        console.log("you are blocked");
+        break;
+    }
+}while(decision==false);
 
 // // for
 
@@ -87,10 +98,9 @@
 // }
 
 
-var i = prompt("Enter your age");
-if (i >= 18) {
-    console.log("You are an adult.");
-}   
-else{
-    console.log("u're a minor.")
-}
+// var i = prompt("multiplication table of:");
+
+// for (let j = 13; j <= 12 ; j++) {
+//     console.log(`${i} * ${j} = ${i * j}`);
+// }
+
