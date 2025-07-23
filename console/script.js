@@ -103,13 +103,14 @@
 // for (let j = 13; j <= 12 ; j++) {
 //     console.log(`${i} * ${j} = ${i * j}`);
 // }
-let p=9
+let p=prompt("enter a number between 1 and 10");
+
 switch(p){
-    case 9:console.log("nine");
+    case '9':console.log("nine");
         break;
-    case 2:console.log("two");
+    case '2':console.log("two");
         break;
-    case 3:console.log("three");
+    case '3':console.log("three");
         break;
 
         default:console.log("default");
